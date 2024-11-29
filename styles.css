@@ -1,0 +1,63 @@
+/* Base styles */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.font-yeseva {
+    font-family: 'Yeseva One', cursive;
+}
+
+/* Brand colors */
+.bg-brand {
+    background-color: #0f0c82;
+}
+
+.text-brand {
+    color: #0f0c82;
+}
+
+.hover\:text-brand:hover {
+    color: #0f0c82;
+}
+
+.text-brand-80 {
+    color: rgba(15, 12, 130, 0.8);
+}
+
+/* Common components */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Section styles */
+.section-title {
+    font-family: 'Yeseva One', cursive;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@media (min-width: 768px) {
+    .section-title {
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+    }
+}
+
+/* Navigation styles */
+.nav-link {
+    color: #374151;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.nav-link:hover {
+    color: #0f0c82;
+}
