@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>User Manual – Theravane</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom styles -->
+    <link href="styles.css" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'yeseva': ['"Yeseva One"', 'cursive'],
+                        'lato': ['Lato', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white">
+    <!-- Header -->
+    <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-sm shadow-md">
+        <div class="container mx-auto px-4 py-4">
+            <nav class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <a href="index.html" class="block">
+                        <img src="http://img1.wsimg.com/isteam/ip/10b4fc1b-5941-4548-a09c-1bfe45bcee67/file-10d1962.png/:/rs=h:160,cg:true,m/qt=q:95" 
+                         alt="Theravane" 
+                         class="h-16 w-auto">
+                    </a>
+                    <span class="text-[#0f0c82]/80 text-xl font-yeseva ml-4">Theravane</span>
+                </div>
+
+                <!-- Navigation Menu -->
+                <div class="hidden md:flex items-center">
+                    <a href="index.html" class="text-gray-700 hover:text-[#0f0c82] transition-colors font-medium">Home</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="bg-[#0f0c82] text-white min-h-screen">
+        <div class="container mx-auto px-4 py-16">
+            <h1 class="text-4xl md:text-5xl font-yeseva text-center mb-12">Theravane User Manual</h1>
+            
+            <div class="max-w-4xl mx-auto space-y-8 text-lg leading-relaxed">
+                <section class="space-y-6">
+                    <h1 class="text-4xl md:text-5xl font-yeseva text-center mb-12">Welcome to Theravane</h1>
+                    
+                    <p class="mb-6">Theravane is a secure feature rich smartphone-based App for healthcare professionals that is designed to optimize patient care and enhance collaboration among healthcare professionals.</p>
+                    
+                    <p class="mb-6">This manual outlines the key features and functionalities of the Theravane App for Doctors.</p>
+                    
+                    <div class="bg-white/10 p-6 rounded-lg">
+                        <p class="font-medium">Please note: You have to be a qualified Doctor to be granted sign up privileges to use the Theravane App. Once you have been vetted by your Workspace, you will receive an email invitation to join the Theravane App as a user.</p>
+                    </div>
+
+                    <h2 class="text-3xl font-yeseva mt-12 mb-6">Getting Started</h2>
+                    <p>We will send you an invite into your email which you will then click on a link and download Theravane on Android Play Store or IOS.</p>
+                    <ul class="list-disc pl-6 space-y-2 mt-4">
+                        <li>For new users: Complete the registration process via the "Sign Up" option.</li>
+                        <li>For returning users: Click on the "Login" button.</li>
+                    </ul>
+
+                    <h3 class="text-2xl font-yeseva mt-8 mb-4">Logging into Theravane App</h3>
+                    <p>After signing up you can now launch the Theravane App for better patient care on your smartphone device.</p>
+                    <div class="bg-white/10 p-6 rounded-lg mt-4">
+                        <p class="mb-4">Enter your email address and password and click login.</p>
+                        <p class="font-medium mb-2">Passwords must at least 8 characters long and include at least one character from each of the following categories:</p>
+                        <ul class="list-disc pl-6 space-y-1">
+                            <li>Lowercase letters (a-z)</li>
+                            <li>Uppercase letters (A-Z)</li>
+                            <li>Numbers (0-9)</li>
+                            <li>Special characters (e.g., !@#$%^&*()_+{}[]|:;<>,.?~)</li>
+                        </ul>
+                        <p class="mt-2 text-white/80">Example: Admin@123</p>
+                    </div>
+
+                    <h2 class="text-3xl font-yeseva mt-12 mb-6">Screen Overviews</h2>
+                    <h3 class="text-2xl font-yeseva mb-4">Landing Page</h3>
+                    <p>On opening the Theravane App, you will be presented with the landing page. Theravane will display your name prominently at the top of the page. There are four tabs at the bottom of the page:</p>
+                    
+                    <div class="grid md:grid-cols-2 gap-6 mt-6">
+                        <div class="bg-white/10 p-6 rounded-lg">
+                            <h4 class="text-xl font-yeseva mb-3">Messages</h4>
+                            <p>The "Message" tab will display all the conversations that you are involved in. These may be Private conversations, Group Chats and Episode of Care Chats.</p>
+                        </div>
+                        <div class="bg-white/10 p-6 rounded-lg">
+                            <h4 class="text-xl font-yeseva mb-3">Episodes</h4>
+                            <p>This tab will display all the Episodes of Care that you have access to and are currently working on.</p>
+                        </div>
+                        <div class="bg-white/10 p-6 rounded-lg">
+                            <h4 class="text-xl font-yeseva mb-3">Dashboard</h4>
+                            <p>Provides a comprehensive overview of Orders sent to Lancet Pathology and Invictus Radiology as linked diagnostic healthcare providers.</p>
+                        </div>
+                        <div class="bg-white/10 p-6 rounded-lg">
+                            <h4 class="text-xl font-yeseva mb-3">Profile</h4>
+                            <p>Shows user-specific information and allows you to invite colleagues and create new groups.</p>
+                        </div>
+                    </div>
+
+                    <h2 class="text-3xl font-yeseva mt-12 mb-6">Landing Page Menu Options</h2>
+                    <div class="space-y-6">
+                        <div class="bg-white/10 p-6 rounded-lg">
+                            <h4 class="text-xl font-yeseva mb-3">Fab (Circle blue button)</h4>
+                            <p>This menu opens into the quick selection of the Plus, Filter and Search Menu options</p>
+                            <ul class="list-disc pl-6 space-y-2 mt-4">
+                                <li><span class="font-medium">Plus Menu:</span> Create new Episode of Care, Add new Patient, Chat with another Workspace User, Create new Group</li>
+                                <li><span class="font-medium">Filter Menu:</span> Narrow down or refine displayed data based on specific criteria</li>
+                                <li><span class="font-medium">Search Menu:</span> Quickly search for Patients</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <h2 class="text-3xl font-yeseva mt-12 mb-6">Episode of Care Options</h2>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="bg-white/10 p-6 rounded-lg">
+                            <h4 class="text-xl font-yeseva mb-3">Clinical Notes</h4>
+                            <p>Written records documenting patient interactions, assessments, treatments, and progress.</p>
+                        </div>
+                        <div class="bg-white/10 p-6 rounded-lg">
+                            <h4 class="text-xl font-yeseva mb-3">Vitals</h4>
+                            <p>Clinical measurements providing essential information about a patient's physiological status.</p>
+                        </div>
+                        <div class="bg-white/10 p-6 rounded-lg">
+                            <h4 class="text-xl font-yeseva mb-3">Orders</h4>
+                            <p>Create and manage Pathology, Radiology and Other medical orders.</p>
+                        </div>
+                        <div class="bg-white/10 p-6 rounded-lg">
+                            <h4 class="text-xl font-yeseva mb-3">Forms</h4>
+                            <p>Access and manage forms like the Triage Form for patient assessment.</p>
+                        </div>
+                    </div>
+
+                    <h2 class="text-3xl font-yeseva mt-12 mb-6">Detailed Procedures</h2>
+
+                    <!-- Creating Orders -->
+                    <div class="bg-white/10 p-6 rounded-lg mb-8">
+                        <h3 class="text-2xl font-yeseva mb-4">Creating a New Order</h3>
+                        <div class="space-y-4">
+                            <ol class="list-decimal pl-6 space-y-4">
+                                <li>
+                                    <span class="font-medium">Navigate to the Episode of Care:</span>
+                                    <p class="mt-1">Select the Episode of Care from the Episodes list or use the search function.</p>
+                                </li>
+                                <li>
+                                    <span class="font-medium">Access Orders Section:</span>
+                                    <p class="mt-1">Look for the section labeled "Orders" in the Episode of Care.</p>
+                                </li>
+                                <li>
+                                    <span class="font-medium">Create New Order:</span>
+                                    <ul class="list-disc pl-6 space-y-2 mt-2">
+                                        <li>Tap on the FAB blue menu dot</li>
+                                        <li>Select the "Create Order" option</li>
+                                        <li>Choose order type (Pathology, Radiology, or Other)</li>
+                                        <li>Select required tests from the new screen</li>
+                                        <li>Tap "Add Selected Items" to confirm</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span class="font-medium">Additional Requirements:</span>
+                                    <p class="mt-1">For Radiology Orders, include the Motivation for the Tests.</p>
+                                </li>
+                                <li>
+                                    <span class="font-medium">Track Status:</span>
+                                    <p class="mt-1">Monitor order status (In progress, completed, etc.) through the dashboard.</p>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <!-- Clinical Notes -->
+                    <div class="bg-white/10 p-6 rounded-lg mb-8">
+                        <h3 class="text-2xl font-yeseva mb-4">Adding Clinical Notes</h3>
+                        <div class="space-y-4">
+                            <ol class="list-decimal pl-6 space-y-3">
+                                <li>Find the Clinical Notes tab in the banner menu</li>
+                                <li>Alternatively, use the blue circle menu and select "Add Clinical Note"</li>
+                                <li>Enter your clinical notes in the form</li>
+                                <li>Click "Add Notes" to save</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <!-- Managing Members -->
+                    <div class="bg-white/10 p-6 rounded-lg mb-8">
+                        <h3 class="text-2xl font-yeseva mb-4">Managing Episode Members</h3>
+                        <div class="space-y-4">
+                            <ol class="list-decimal pl-6 space-y-3">
+                                <li>
+                                    <span class="font-medium">Access Members:</span>
+                                    <p class="mt-1">Navigate to the "Members" section within the Episode of Care</p>
+                                </li>
+                                <li>
+                                    <span class="font-medium">Add New Members:</span>
+                                    <ul class="list-disc pl-6 space-y-2 mt-2">
+                                        <li>Click the blue circle menu</li>
+                                        <li>Select "Add Members"</li>
+                                        <li>Choose members by checking their boxes</li>
+                                        <li>Click "Add Users" to confirm</li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <!-- Updating Episodes -->
+                    <div class="bg-white/10 p-6 rounded-lg mb-8">
+                        <h3 class="text-2xl font-yeseva mb-4">Updating Episodes of Care</h3>
+                        <div class="space-y-4">
+                            <ol class="list-decimal pl-6 space-y-3">
+                                <li>
+                                    <span class="font-medium">Find the Episode:</span>
+                                    <ul class="list-disc pl-6 space-y-2 mt-2">
+                                        <li>Use the search menu to find the patient</li>
+                                        <li>Navigate to the "Episodes" section</li>
+                                        <li>Select the specific episode to update</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span class="font-medium">Make Updates:</span>
+                                    <ul class="list-disc pl-6 space-y-2 mt-2">
+                                        <li>Click the blue circle button</li>
+                                        <li>Select "Edit Episode"</li>
+                                        <li>Update the necessary fields</li>
+                                        <li>Save your changes</li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <!-- Starting Chats -->
+                    <div class="bg-white/10 p-6 rounded-lg mb-8">
+                        <h3 class="text-2xl font-yeseva mb-4">Starting a Chat with Colleagues</h3>
+                        <div class="space-y-4">
+                            <ol class="list-decimal pl-6 space-y-3">
+                                <li>
+                                    <span class="font-medium">Access Chat Options:</span>
+                                    <ul class="list-disc pl-6 space-y-2 mt-2">
+                                        <li>Tap the FAB (blue icon) in the bottom right corner</li>
+                                        <li>Select the + icon from the menu</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span class="font-medium">Start New Chat:</span>
+                                    <ul class="list-disc pl-6 space-y-2 mt-2">
+                                        <li>Choose "Chat with another Workspace User"</li>
+                                        <li>Select the user from the directory</li>
+                                        <li>Tap "Chat with User" to begin</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span class="font-medium">Chat Features:</span>
+                                    <ul class="list-disc pl-6 space-y-2 mt-2">
+                                        <li>Send text messages in the "write a message" space</li>
+                                        <li>Attach files using the paperclip icon</li>
+                                        <li>Share videos and photos as needed</li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <h2 class="text-3xl font-yeseva mt-12 mb-6">Support Information</h2>
+                    <div class="bg-white/10 p-6 rounded-lg">
+                        <p class="mb-4">If you encounter issues that you cannot resolve using this manual, please contact IT support:</p>
+                        <ul class="space-y-2">
+                            <li><span class="font-medium">Email:</span> support@theravane.com</li>
+                            <li><span class="font-medium">Phone:</span> 073 289 0486 (Vaughan) or 078 271 5162 (Philani)</li>
+                            <li><span class="font-medium">Hours:</span> Monday to Friday, 8:00 AM to 5:00 PM with limited after-hours support</li>
+                        </ul>
+                        <p class="mt-4 font-medium text-white/80">Remember to save your work frequently and log out of the system when you're finished to protect patient privacy and ensure data security.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#0f0c82] text-white py-12 border-t border-white/20">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-8 md:mb-0">
+                    <img src="http://img1.wsimg.com/isteam/ip/10b4fc1b-5941-4548-a09c-1bfe45bcee67/file-10d1962.png/:/rs=h:160,cg:true,m/qt=q:95" 
+                         alt="Theravane" 
+                         class="h-16 w-auto">
+                </div>
+                <div class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8">
+                    <a href="index.html" class="text-white hover:text-gray-300 transition-colors">Home</a>
+                    <a href="privacy-policy.html" class="text-white hover:text-gray-300 transition-colors">Privacy Policy</a>
+                </div>
+            </div>
+            <div class="text-center mt-8 text-sm text-white/60">
+                2024 Theravane. All rights reserved.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
